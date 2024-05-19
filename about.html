@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+<head>
+
+    <script>
+        window.embeddedChatbotConfig = {chatbotId: "WLXx6Av3Sga5tOsx1uLQR", domain: "www.chatbase.co" }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="WLXx6Av3Sga5tOsx1uLQR" domain="www.chatbase.co" defer></script>
+    <style>
+ 
+        *
+            {
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+            }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+
+        }
+        .toolbar
+            {
+                background: crimson;
+                height: 50px;
+                width: 100%;
+
+            }
+        .navbar
+            {
+                display: flex;
+                text-decoration-color: whitesmoke;
+                text-decoration: none;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .name a
+            {
+                color: whitesmoke;
+                font-size: 20px;
+                font-weight: 500px;
+            }
+
+            button
+            {
+                background: black; 
+                margin-left: 10px; 
+                border-radius: 10px; 
+                padding: 5px;  
+                margin-bottom: 10px; 
+                align-content: right;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+            button a
+            {
+                color: whitesmoke; 
+                font: bold; 
+                font-size: 15px;
+            }
+            section 
+            {
+            width: 100%;
+            height: 100vh;
+            }
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+            padding-top: 10%;
+        }
+          
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect 
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+            
+        }
+          
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+
+        }
+          
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+            margin-top: 5%;
+        }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+            padding-top: 30%;
+        }
+          section .events
+          {
+            padding-top: 30%;
+          }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 30px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+            padding-top: 30%;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+            padding-top: 30%;
+        }
+        .bottom
+        {
+            margin-top: 300px;
+            text-align: center;
+            color: skyblue;
+            padding-bottom: 15px;
+        }
+        .dist
+        {
+            color: white;
+            display: inline-flex;
+            text-align: center;
+            margin-left: 60px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            padding-top: 15px;
+        }
+        .dist li
+        {
+            padding-left: 100px;
+            list-style: none;
+
+        }
+    </style>
+    <title>About Us</title>
+</head>
+  
+<body>
+    <nav class="toolbar">
+            <div class="navbar">
+                <div class="name"><a href="index.html">AI At your Doorstep</a></div>
+                <ul>
+                    <button><a href="bot.html">Chat now</a></button>
+                    <button><a href=https://chatterbot.readthedocs.io/en/stable/>How to Use</a></button>
+                    <button><a href="index.html">Home page</a></button>
+                    <button><a href="test.html">Take Test</a></button>
+                </ul>
+            </div>
+        </nav>
+    <section>
+        <div class="leftBox">
+            <div class="content">
+                <h1>
+                    About Our Site
+                </h1>
+                 
+<p>
+                     With the idea of putting life to making people stress free and
+                   help them come out from their mental helth issues we are here to serve 
+                    the society with our new project that is this "AI Therapist".<br>
+                    This product will help people diagnose their problems and get some help
+                    to deal with the same.<br>
+                    The chat bot takes help of some conversations of worldwidely known therapists
+                    and helps the user on the basis of the conversations.
+                </p>
+ 
+            </div>
+        </div>
+  
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            About Developers
+                        </h2>
+                    </div>
+                    <div class="details">
+                         
+<p>
+                           <p> Sakshi Bhanwarsingh Solanki</p>
+                           <p> Shruti Ashok Dhome </p> 
+                            <p> Rohan Murlidhar Roundhal </p>
+                            <p> Parshva Sanjay Dhedia </p>
+                        </p>
+                        <a>View Details</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            Who We Are
+                        </h2>
+                    </div>
+                    <div class="details">
+                         
+<p>
+                        We are Third Year Students of Shah & Anchor kutchhi Engineering College
+                            which is in Chembur Mumbai.
+                            We are here to serve you with our website.
+
+                        </p>
+                        <a href="https://www.shahandanchor.com/home/">View Details</a>
+ 
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            <br><span>our mentor</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                           Under The Golden Guidence Of
+                        </h3>
+                         
+<p>
+                            Prof. Pooja Polshetwar
+                        </p>
+ 
+  
+                        <a href="https://www.sakec.ac.in/ecs/ecs-teaching-faculty/">View Details</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+   
+</body>
+  
+</html>
